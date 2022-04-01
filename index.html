@@ -9,6 +9,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <style>
+        img {
+            border-radius: 50px;
+        }
 h1{
     font-family:'Montserrat' , sans-serif;
     color: #F3DFBF;
@@ -35,12 +38,15 @@ body {
 .hab {
     font-size: 25px;
 }
-
-
-
-
-
-
+.button {
+    padding: 10px 20px;
+    color: white;
+    background-color:#A63D40;
+    line-height: 40px;
+    font-size:16px;
+    font-weight: 300;
+    
+}
     </style>
 </head>
 <body>
@@ -48,13 +54,13 @@ body {
         Vinícius de Lima Vilaça
     </h1>
     <img src="./foto-atual-minha.jpg" alt="Foto atual Vinicius" width="200px"> 
-    <a href="./foto-atual-minha.jpg">Foto</a>
+    <p><a href="./foto-atual-minha.jpg" target="_blank">Foto</a></p> 
 <h2 class="red">Descrição</h2>
     <p id="dsc">
     Meu nome é Vinicius de Lima Vilaça, <strong class="br1"> brasileiro</strong>, atualmente morando em <strong class="br1">Alfenas-MG</strong>, possuo dois cachorros, Bóris e Campeão. Tenho o sonho e <strong id="obj">objetivo</strong> de me tornar desenvolvedor full stack, e para isso conto com o apoio da <em>Trybe</em>.
 </p>
 <ul id="hbl">
-   <p class="red">Habilidades que possuo : </p> 
+   <h3 class="red">Habilidades que possuo : </h3> 
     <li class="hab"> Aptidão para a prática de variados esportes; </li>
     <li class="hab" > <strong> Facilidade em me relacionar com as pessoas e fazer amizades;</strong> </li>
     <li class="hab"> <em>Buscar ao máximo alcançar os objetivos e metas traçadas;</em></li>
@@ -63,14 +69,13 @@ body {
 <p id="site">Minha indicação de blog/site é o <a href="https://adrenaline.com.br"
     target="_blank">Adrenaline</a>, com muitas matérias e artigos sobre tecnologia em geral, lançamentos de hardware e softwares úteis, novidades de grandes empresas da área e tudo sobre o vasto ramo tecnológico. </p> 
 <br><br>
-<p class="red">Índice com links úteis:</p> 
-<br><br>
-<a href="#name">Nome</a>
+<h4 class="red">Índice com links úteis:</h4>
+<a href="#name" class="button">Nome</a>
 <br>
-<a href="#dsc">Breve descrição sobre mim</a>
+<a href="#dsc" class="button">Breve descrição sobre mim</a>
 <br>
-<a href="#hbl">Habilidades</a>
+<a href="#hbl" class="button">Habilidades</a>
 <br>
-<a href="#site">Site sugerido</a>
+<a href="#site" class="button">Site sugerido</a>
 </body>
 </html>
