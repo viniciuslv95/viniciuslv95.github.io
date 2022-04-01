@@ -10,14 +10,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <style>
 h1{
-    font-family:'Montserrat' , sans-serif
+    font-family:'Montserrat' , sans-serif;
+    color: #F3DFBF;
 }
+.red {
+    color: #A63D40;
+}
+
 #dsc {
     font-family: 'Courier New', Courier, monospace
 }
 body {
     background-color: #2f97c1;
     color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .br1 {
     color: yellow;
@@ -25,6 +32,10 @@ body {
 #obj {
     color: black;
 }
+.hab {
+    font-size: 25px;
+}
+
 
 
 
@@ -38,23 +49,21 @@ body {
     </h1>
     <img src="./foto-atual-minha.jpg" alt="Foto atual Vinicius" width="200px"> 
     <a href="./foto-atual-minha.jpg">Foto</a>
-<h2>Descrição</h2>
+<h2 class="red">Descrição</h2>
     <p id="dsc">
     Meu nome é Vinicius de Lima Vilaça, <strong class="br1"> brasileiro</strong>, atualmente morando em <strong class="br1">Alfenas-MG</strong>, possuo dois cachorros, Bóris e Campeão. Tenho o sonho e <strong id="obj">objetivo</strong> de me tornar desenvolvedor full stack, e para isso conto com o apoio da <em>Trybe</em>.
 </p>
 <ul id="hbl">
-    Habilidades que possuo : 
-    <br>
-    <br>
-    <li> Aptidão para a prática de variados esportes; </li>
-    <li> <strong> Facilidade em me relacionar com as pessoas e fazer amizades;</strong> </li>
-    <li> <em> Buscar ao máximo alcançar os objetivos e metas traçadas</em> ;</li>
-    <li> Certo conhecimento em hardware e periféricos;</li>
+   <p class="red">Habilidades que possuo : </p> 
+    <li class="hab"> Aptidão para a prática de variados esportes; </li>
+    <li class="hab" > <strong> Facilidade em me relacionar com as pessoas e fazer amizades;</strong> </li>
+    <li class="hab"> <em>Buscar ao máximo alcançar os objetivos e metas traçadas;</em></li>
+    <li class="hab"> Certo conhecimento em hardware e periféricos;</li>
 </ul>
 <p id="site">Minha indicação de blog/site é o <a href="https://adrenaline.com.br"
     target="_blank">Adrenaline</a>, com muitas matérias e artigos sobre tecnologia em geral, lançamentos de hardware e softwares úteis, novidades de grandes empresas da área e tudo sobre o vasto ramo tecnológico. </p> 
 <br><br>
-Índice com links úteis:
+<p class="red">Índice com links úteis:</p> 
 <br><br>
 <a href="#name">Nome</a>
 <br>
