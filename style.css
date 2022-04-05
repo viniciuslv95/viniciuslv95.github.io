@@ -9,16 +9,20 @@ h1{
 .red {
     color: #F3DFBF;
 }
-
+#name {
+    text-align: center;
+}
 #dsc {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
 }
 body {
     background-color: #2f97c1;
     color: white;
     font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
-    line-height: 40px
+    line-height: 40px;
+    padding: 2%;
 }
 .br1 {
     color: black;
@@ -33,7 +37,24 @@ body {
     background-color: rgba(128, 128, 128, 0.795);
     line-height: 40px;
     font-size:12px;
- 
-    
-}
+   }
+
+   #selfie {
+       float: left;
+       height: 280px;
+       padding: 10px;
+       background-color: green;
+    }
+    .img-box {
+        height: 300px;
+    }
+    #texto-dsc {
+        margin-left: 250px;
+        position: absolute;
+    }
+    ul li:nth-child(odd):hover {
+        color: yellow;
+    }
+   
+
     </style>
