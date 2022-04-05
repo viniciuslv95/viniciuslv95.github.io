@@ -1,0 +1,39 @@
+<style>
+        img {
+            border-radius: 50px;
+        }
+h1{
+    font-family:'Montserrat' , sans-serif;
+    color: #F3DFBF;
+}
+.red {
+    color: #F3DFBF;
+}
+
+#dsc {
+    font-family: 'Courier New', Courier, monospace
+}
+body {
+    background-color: #2f97c1;
+    color: white;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 40px
+}
+.br1 {
+    color: black;
+}
+
+.hab {
+    font-size: 18px;
+}
+.button {
+    padding: 10px 20px;
+    color: #F3DFBF;
+    background-color: rgba(128, 128, 128, 0.795);
+    line-height: 40px;
+    font-size:12px;
+ 
+    
+}
+    </style>
